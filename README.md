@@ -1,33 +1,35 @@
-📁 ICML Rebuttal Repository (Paper ID: 17140)
+# ICML Rebuttal Repository (Paper ID: 17140)
 
-To the Respected Reviewers,
+**To the Respected Reviewers,**
 
-Thank you for your time and for the detailed feedback provided in your reviews. We sincerely appreciate the opportunity to share our implementation with you during this rebuttal phase.
+Thank you very much for your time and the constructive feedback provided in your reviews. We sincerely appreciate the opportunity to share our implementation details with you during this rebuttal phase.
 
-In response to your comments, we have prepared this anonymous repository to provide more clarity on the technical details of HALyPO. We understand that a research paper is a continuous process of refinement, and your suggestions have been vital in helping us identify areas for improvement.
+In response to your comments, we have prepared this anonymous repository to provide additional technical clarity on **HALyPO**. We understand that a research paper is a continuous process of refinement, and your suggestions have been vital in helping us identify areas where the presentation or technical depth could be improved.
 
-🏗️ Code Overview
+---
 
-To respect your time, we have included a core subset of the project that directly addresses the mechanisms discussed in the paper:
+## 🏗️ Code Architecture
 
-    halpo_algorithm/: Contains the primary implementation of our Lyapunov-based policy optimization. We hope this clarifies the gradient rectification and projection logic.
+To respect your review time, we have included the core functional subset of the project that directly addresses the mechanisms discussed in the paper:
 
-    source/isaaclab_tasks/: Includes the environment configurations for the collaborative tasks (OSP, SCT, and SLH). These define the physics and reward structures used in our benchmarks.
+* **`halpo_algorithm/`**: Contains the primary implementation of our Heterogeneous-Agent Lyapunov Policy Optimization. This includes the **Lyapunov projection logic** and decentralized update routines which are central to our theoretical contribution.
+* **`source/isaaclab_tasks/`**: Defines the task environments and configuration files for our benchmarks (OSP, SCT, and SLH). These files detail the physics parameters and reward structures used in our experiments.
+* **`assets/`**: Houses the URDF and mesh files for the humanoid robot and collaborative objects, ensuring the simulation setup is transparent.
+* **`source/isaaclab*`**: Includes the necessary framework wrappers and dependency modules to ensure the codebase is as self-contained and reproducible as possible.
 
-    assets/: Provides the robot and object models used in the Isaac Sim environment.
+---
 
-    source/isaaclab*: Necessary framework modules included to ensure the code structure is as self-contained as possible.
+## 🌿 Our Commitment to Open Source
 
-🌿 Our Commitment to the Community
+We believe that transparency and reproducibility are essential for the advancement of the robotics and MARL communities. 
 
-We believe that open-source transparency is essential for reproducible robotics research.
+* **Continuous Improvement**: We are currently refining the code and expanding the documentation based on the insights gained from your reviews.
+* **Full Release Plan**: If this work is accepted, we are committed to releasing the **complete, production-ready codebase**, including all training scripts, pre-trained model weights, and comprehensive "getting started" guides to help other researchers build upon our work.
 
-    Continuous Improvement: We are currently working on further cleaning the code and expanding the documentation based on your feedback.
+---
 
-    Full Release: If this work is accepted, we are committed to releasing the complete codebase, including all training scripts, pre-trained weights, and a comprehensive "getting started" guide to help other researchers reproduce our results.
+## 🛡️ Anonymity Notice
 
-🛡️ Anonymity Note
+In strict accordance with the ICML double-blind policy, this repository has been thoroughly scrubbed. All author names, institutional affiliations, and identifying metadata have been removed or pseudonymized.
 
-This repository has been carefully scrubbed to comply with ICML's double-blind policy. No author names or institutional affiliations are included.
-
-We sincerely hope this code provides the additional clarity you are looking for. We remain open to any further suggestions you may have to make this work more robust and impactful.
+**We sincerely hope this code provides the clarity you are seeking. We remain fully open to any further suggestions you may have to make this work more robust and impactful.**
