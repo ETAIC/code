@@ -1,4 +1,3 @@
-# Copyright (c) 2024, Hao Zhang, Yikai Wang, Ding Zhao, Hongtei Eric Tseng.
 from typing import Dict, Any
 
 import torch
