@@ -28,9 +28,8 @@ To respect the double-blind policy while ensuring technical clarity, we have rel
 - [x] **Algorithm Architecture**: Implementation framework of HALyPO project.
 - [x] **Representative Task Scenario**: A functional task configuration and environment instance.
 - [x] **Robot Assets**: URDF/USD models and mesh files for humanoid robots.
-- [ ] **Full Benchmark Suite** (*Release upon acceptance*): All collaborative task environments.
+- [ ] **Full Benchmark Suite and Pre-Trained Models** (*Release upon acceptance*): All collaborative task environments and optimized checkpoints for immediate evaluation.
 - [ ] **Complete Training Pipelines** (*Release upon acceptance*): End-to-end training scripts and hyperparameter sweep logs.
-- [ ] **Pre-trained Models** (*Release upon acceptance*): Optimized checkpoints for all benchmark scenarios for immediate evaluation.
 - [ ] **Documentation and Deployment** (*Coming Soon*): Step-by-step installation guide and sim-to-real deployment tutorials.
 
 ---
