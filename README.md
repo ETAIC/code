@@ -30,7 +30,7 @@ To respect the double-blind policy while ensuring technical clarity, we have rel
 - [x] **Robot Assets**: URDF/USD models and mesh files.
 - [ ] **Full Benchmark Suite and Pre-Trained Models** (*Release upon acceptance*): All collaborative task environments and optimized checkpoints for immediate evaluation.
 - [ ] **Complete Training Pipelines** (*Release upon acceptance*): End-to-end training scripts and hyperparameter sweep logs.
-- [ ] **Documentation and Deployment** (*Coming Soon*): Step-by-step installation guide and sim-to-real deployment tutorials.
+- [ ] **Documentation and Deployment** (*Release upon acceptance*): Step-by-step installation guide and sim-to-real deployment tutorials.
 
 ---
 
