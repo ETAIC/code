@@ -21,6 +21,20 @@ The core functional structure of the project:
 
 ---
 
+## Release Roadmap & TODO List
+
+To respect the double-blind policy while ensuring technical clarity, we have released the core architecture during the ICML rebuttal process. We are committed to the following release schedule:
+
+- [x] **Algorithm Architecture**: Implementation framework of HALyPO project.
+- [x] **Representative Task Scenario**: A functional task configuration and environment instance.
+- [x] **Robot Assets**: URDF/USD models and mesh files for humanoid robots.
+- [ ] **Full Benchmark Suite** (*Release upon acceptance*): All collaborative task environments.
+- [ ] **Complete Training Pipelines** (*Release upon acceptance*): End-to-end training scripts and hyperparameter sweep logs.
+- [ ] **Pre-trained Model** (*Release upon acceptance*): Optimized checkpoints for all benchmark scenarios for immediate evaluation.
+- [ ] **Comprehensive Documentation** (*Coming Soon*): Step-by-step installation guide and sim-to-real deployment tutorials.
+
+---
+
 ## Anonymity Notice
 
 In strict accordance with the ICML double-blind policy, this repository has been thoroughly scrubbed. All author names, institutional affiliations, and identifying metadata have been removed or pseudonymized.
