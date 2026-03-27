@@ -21,7 +21,6 @@ class WholeBodyController:
         self.yaw_range = (-1.57, 1.57)
         self.height_range = (-0.5, 0.8)
         self.torso_pitch_range = (-0.52, 1.57)
-        
         self.control_frequency = 50.0
         self.control_dt = 1.0 / self.control_frequency
 
@@ -31,16 +30,13 @@ class WholeBodyController:
         yaw_dot = np.clip(high_level_cmd[2], self.yaw_range[0], self.yaw_range[1])
         com_height = np.clip(high_level_cmd[3], self.height_range[0], self.height_range[1])
         torso_pitch = np.clip(high_level_cmd[4], self.torso_pitch_range[0], self.torso_pitch_range[1])
-        
         left_wrist_delta = high_level_cmd[5:8] if len(high_level_cmd) >= 8 else np.zeros(3)
         right_wrist_delta = high_level_cmd[8:11] if len(high_level_cmd) >= 11 else np.zeros(3)
-        
         if len(self.default_dof_pos) >= self.num_g1_joints:
             joint_targets = self.default_dof_pos[:self.num_g1_joints].copy()
         else:
             joint_targets = np.zeros(self.num_g1_joints, dtype=np.float32)
             joint_targets[:len(self.default_dof_pos)] = self.default_dof_pos
-        
         return joint_targets
 
     def reset(self):
