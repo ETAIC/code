@@ -2,7 +2,7 @@
 
 **To the Respected Reviewers,**
 
-Thank you very much for your time and the constructive feedback provided in your reviews. We sincerely appreciate the opportunity to share our implementation details with you during this rebuttal phase. In response to your comments, we have prepared this anonymous repository to provide additional technical clarity on the implementation and architecture of our work.
+Thank you very much for your time and the constructive feedback provided in your reviews. We sincerely appreciate the opportunity to share our implementation details with you during this rebuttal phase.
 
 **Our Commitment to Open Source:** We believe that transparency and reproducibility are essential for the advancement of the machine learning and embodied AI communities. Parts of the testing environments used in this work are built upon our previously published open-source projects/benchmarks. To strictly adhere to the double-blind policy and avoid identity leakage through self-citation, we have provided the **overall code architecture** and **representative task scenarios** in this repository for verification. 
 
